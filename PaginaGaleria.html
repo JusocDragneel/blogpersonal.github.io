@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="otf-8">
+   <title> Galeria </title>
+   <link rel=StyleSheet href="EdicionGaleria.css" type="text/css">
+   <link rel="shortcut icon" href="favicon.png">
+   <link rel="shortcut icon" href="favicon.png">
+</head>
+
+<body>
+   <header>
+      <nav>
+         <ul>
+            <img src="Julian Soto.png" height="45" width="250">
+            <br>
+            <li><a href="PaginaConsultas.html">Consultas</a></li>
+            <li><a href="PaginaProyectos.html">Proyectos</a></li>
+            <li><a href="PaginaGaleria.html">Galeria</a></li>
+            <li><a href="PaginaQuienSoy.html">¿Quién soy?</a></li>
+            <li><a href="index.html">Inicio</a></li>
+         </ul>
+      </nav>
+
+      <div class="texto">
+         <br>
+         <center>
+            <h2 style=" font-style:italic">- Galeria -</h2>
+         </center>
+         <br>
+      </div>
+
+      <div class="contenedor">
+
+         <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                           <img src="Paisaje.jpg" height="400" width="1000px">
+
+                           <p>imagen1</p>
+                        </div>
+                     </div>
+
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                           <img src="Quien soy 2.jpg" height="400" width="300">
+                           <p>imagen2</p>
+                        </div>
+                     </div>
+
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                           <img src="Quien soy 3.jpg" height="400" width="300">
+                           <p>imagen3</p>
+                        </div>
+                     </div>
+
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                           <img src="Perfil.jpg" height="400" width="300">
+                           <p>imagen4</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>
+      </div>
+      <br>
+      <center> <video src="video.mp4" autoplay muted loop width="640" height="480"></video> </center>
+      <br>
+</body>
+
+<footer>
+   <br>
+   Julian Soto Caicedo
+   <br>
+   Ingenieria Multimedia & Comunicacion Social
+   <br>
+   <br>
+</footer>
+
+</html>

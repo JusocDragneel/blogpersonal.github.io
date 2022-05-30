@@ -1,0 +1,214 @@
+footer {
+  background-color: rgb(224, 69, 85);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-items: center bottom;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 90px;
+}
+
+ul {
+  /*Borde Superior*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-style: italic;
+  background-color: rgb(224, 69, 85);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+img {
+  /*Margen de la imagen*/
+  float: left;
+  margin: 30px;
+}
+
+.tamano {
+  font-size: 40px;
+}
+
+h1 {
+  /*Alinear titulo*/
+  text-align: center;
+}
+
+h2 {
+  /*Espacio superior imagen*/
+  padding: 2px;
+  margin: 15px;
+  text-align: center;
+}
+
+li {
+  /*Distribucion Menu*/
+  float: right;
+}
+
+li a {
+  /*Estetica Menu*/
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+.contenedor {
+  /*Margen de datos de contactos*/
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 300px;
+}
+
+* {
+  /*Amplitud de pantalla*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.controls {
+  /*Cuadros textura*/
+  width: 100%;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  border: 1px solid #1c1c1c;
+  font-family: 'calibri';
+  font-size: 20px;
+  color: rgb(214, 208, 208);
+}
+
+.form-register {
+  /*Distribuicion del cuadro*/
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: rgb(0, 0, 0);
+  float: left;
+}
+
+.texto3 {
+  /*Separacion*/
+  float: left;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  width: 300px;
+  margin: 40px;
+}
+
+#item1 {
+  /*Tabla de datos*/
+  float: left;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  width: 300px;
+}
+
+#item2 {
+  /* Mis dato * Redes sociales*/
+  float: left;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  width: 300px;
+  margin: 60px;
+  font-size: 20px;
+}
+
+/*
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+  
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+}
+  
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+  
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+ 
+.texto{  
+  width: 900px;
+  height: 700px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li a:hover {
+  background-color: rgb(235, 83, 98);
+}
+
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-40%, -50%);
+  font-family: "mifuente";
+}
+
+
+      
+li {
+  float: right;
+}
+      
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 18px 45px;
+  text-decoration: none;
+}
+      
+li a:hover {
+  background-color: rgb(235, 83, 98);
+}
+    
+h1{
+  align-content: center;
+}
+
+.contenedor{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-40%, -50%);
+  font-family: "mifuente";
+}
+
+h2{
+  padding: 2px;
+  margin: 15px;
+}
+*/
